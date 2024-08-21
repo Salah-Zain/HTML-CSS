@@ -1,0 +1,37 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#content {
+    height: 500px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background-color: blanchedalmond;
+    margin: 40px;
+}
+
+#logo {
+    height: 300px;
+    width: 500px;
+    background-color: rgb(248, 1, 1);
+    border-radius:58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.triangle {
+    width: 0px;
+	height: 0px;
+	border-top: 75px solid red;
+	border-left: 150px solid white;
+	border-bottom: 75px solid red;
+}

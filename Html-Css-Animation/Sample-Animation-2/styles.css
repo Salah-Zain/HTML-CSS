@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    height: 100vh;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+#container > div {
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+#box1 {
+    width: 50px;
+    height: 120px;
+    background-color: #ffffff;
+    animation: motion 1s ease .1s infinite;
+}
+
+#box1 > .inner2 {
+    width: 30px;
+    height: 30px;
+    background-color: dodgerblue;
+    margin-top: 40px;
+    margin-left: 10px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+#box2 {
+    width: 50px;
+    height: 140px;
+    background-color: white;
+    animation: motion 1s ease-out 1s infinite;
+}
+
+#box2 > .inner2 {
+    width: 30px;
+    height: 30px;
+    background-color: dodgerblue;
+    margin-top: 60px;
+    margin-left: 10px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+#box3 {
+    width: 50px;
+    height: 160px;
+    background-color: white;
+    animation: motion 1s ease-in-out 2s infinite;
+}
+
+#box3 > .inner2 {
+    width: 30px;
+    height: 30px;
+    background-color: dodgerblue;
+    margin-top: 80px;
+    margin-left: 10px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+#box4 {
+    width: 50px;
+    height: 130px;
+    background-color: white;
+    animation: motion 1s ease-in-out 3s infinite;
+}
+
+#box4 > .inner2 {
+    width: 30px;
+    height: 30px;
+    background-color: dodgerblue;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+.inner1 {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 30px;
+    height: 10px;
+    border-top: 4px solid dodgerblue;
+    border-bottom: 4px solid dodgerblue;
+}
+
+@keyframes motion {
+    from {
+        height: 0;
+        transform: translate(0);
+    }
+    to {
+        transform: translateY(30px);
+        /* height: -150px; */
+    } 
+}

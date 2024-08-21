@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(186, 68, 222);
+    
+}
+
+#login-page {
+    width: 400px;
+    background-color: rgb(251, 249, 254);
+    text-align: center;
+    border-radius: 12px;
+
+}
+
+#header h1 {
+    font-weight: 600;
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 40px;
+    
+}
+
+#btn {
+    /
+    /* width: 1px;   */
+    /* margin-left: 40px;
+    margin-right: 40px; */
+    
+}
+
+#main button {
+    padding: 14px 44px;
+    border: 1px solid rgb(69, 67, 67);
+    margin-bottom: 30px;
+    border: 1px solid rgb(69, 67, 67);
+    box-shadow: none;
+    text-align: center;
+}
+
+#main #login-btn {
+    background-color: rgb(65, 189, 194);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;  
+    margin-right: -4px;
+}
+
+#main #login-btn a {
+    color: rgb(255, 255, 255);
+}
+
+#main #signin-btn {
+    margin-right: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+#main #signin-btn a{
+    color: black;
+}
+
+#signin-form input {
+    height: 45px;
+    width: 260px;
+    padding-left: 30px;
+    border-radius: 8px;
+    background-origin: padding-box;
+    border: 1px solid rgb(177, 175, 175);
+    /* box-shadow: ; */
+}
+
+#main p {
+    margin-top: 10px;
+    text-align: start;
+    margin-left: 80px;
+}
+
+#footer button {
+    margin-top: 20px;
+    padding: 14px 110px;
+    color: white;
+    background-color: rgb(65, 189, 194);
+    border-radius: 12px;
+    border: 1px solid rgb(208, 205, 205);
+}
+
+#footer p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(189, 183, 183);
+    }
+    
+#Keyboard {
+    border: 1px solid orange;
+    background-color: rgb(15, 15, 15);
+    padding: 40px;
+    border-radius: 24px;
+    /* box-shadow: 12px 12px 20px 5px ; */
+}
+
+.keys button{
+    margin: 2px;
+    color: rgb(167, 164, 164);
+    background-color: rgb(46, 44, 44);
+    width: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+}
+
+.keys button:hover {
+    background-color: black;
+    color: rgb(201, 197, 197);
+    border: 1px solid rgb(31, 30, 30);
+}
+
+.keys button:active {
+    color: red;
+    border-color: rgb(246, 56, 56);
+}
+
+.keys .tab {
+    width: 130px;
+}
+
+.keys .back {
+    width: 200px;
+}
+
+.keys .caps {
+    width: 150px;
+}
+
+.keys .enter {
+    width: 160px;
+}
+
+.keys .slash {
+    width: 120px;
+}
+
+.keys .shift1 {
+    width: 180px;
+}
+
+.keys .shift2 {
+    width: 190px;
+}   
+
+.keys .space {
+    width: 340px;
+}
+
+.keys .altgr {
+    width: 70px;
+}
+
+.keys .ctrl2 {
+    width: 70px;
+}

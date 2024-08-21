@@ -1,0 +1,47 @@
+body {
+    background-color: thistle;
+}
+
+#keyboard {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 900px;
+    height: 300px;
+    padding: 25px;
+    border-radius: 8px;
+    background-color: rgb(171, 171, 171);
+}
+
+table:hover {
+    background-color: rgb(109, 107, 107);
+
+}
+
+table,
+td {
+    border: 1px solid black;
+}
+
+td {
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 16px;
+    background-color: rgb(19, 18, 18);
+    color: rgb(205, 198, 198);
+}
+
+td:hover {
+    color: rgb(81, 77, 77);
+    background-color: rgb(226, 223, 223);
+}
+
+td:active {
+    color: rgb(31, 207, 54);
+    border-color: rgb(230, 22, 22);
+    background-color: rgb(197, 190, 190);
+}
